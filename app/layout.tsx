@@ -140,8 +140,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="id" className={`${inter.variable} scroll-pt-24`}>
       <head>
-        {/* ✅ AMP Discovery */}
-        <link rel="amphtml" href="https://amp-jun88-id-online.pages.dev/" />
+        {/* ✅ AMP Discovery — double dash */}
+        <link rel="amphtml" href="https://amp-jun88-id--online.pages.dev/" />
 
         <script
           type="application/ld+json"
