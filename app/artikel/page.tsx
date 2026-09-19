@@ -35,12 +35,35 @@ const breadcrumbSchema = {
   ],
 };
 
+// ✅ CollectionPage + ItemList schema
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `Artikel ${SITE_CONFIG.name}`,
+  description: "Artikel terbaru seputar dunia slot gaming — berita, tips, panduan, dan informasi.",
+  url: `${SITE_CONFIG.domain}/artikel`,
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: articles.length,
+    itemListElement: articles.map((a, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${SITE_CONFIG.domain}/artikel/${a.slug}`,
+      name: a.title,
+    })),
+  },
+};
+
 export default function ArtikelPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
 
       <div className="shell py-6 md:py-10 space-y-6">

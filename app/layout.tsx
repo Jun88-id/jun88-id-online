@@ -44,9 +44,15 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // ✅ Google Search Console Verification
   verification: {
     google: "6nzbiJy4ba-BvRSNKKUnDNTh5pEf6WXwjO89_9K4BjA",
+  },
+  // ✅ Geo tag — konsisten dengan AMP
+  other: {
+    "geo.region": "ID",
+    "geo.placename": "Jakarta",
+    "geo.position": "-6.2088;106.8456",
+    ICBM: "-6.2088, 106.8456",
   },
   // canonical DIHAPUS dari root — akan di-set per-halaman
   openGraph: {
@@ -103,7 +109,6 @@ const orgSchema = {
     streetAddress: LICENSE_INFO.address,
     addressCountry: "CW",
   },
-  // Lisensi resmi — sinyal trust untuk YMYL
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
     credentialCategory: "License",
@@ -135,6 +140,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="id" className={`${inter.variable} scroll-pt-24`}>
       <head>
+        {/* ✅ AMP Discovery */}
+        <link rel="amphtml" href="https://amp-jun88-id-online.pages.dev/" />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}

@@ -35,12 +35,35 @@ const breadcrumbSchema = {
   ],
 };
 
+// ✅ CollectionPage + ItemList schema
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `Panduan Bermain ${SITE_CONFIG.name}`,
+  description: "Panduan lengkap bermain demo slot — cara memulai, memahami RTP, mengelola modal, dan fitur bonus.",
+  url: `${SITE_CONFIG.domain}/panduan`,
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: guides.length,
+    itemListElement: guides.map((g, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${SITE_CONFIG.domain}/panduan/${g.slug}`,
+      name: g.title,
+    })),
+  },
+};
+
 export default function PanduanPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
 
       <div className="shell py-6 md:py-10 space-y-6">
