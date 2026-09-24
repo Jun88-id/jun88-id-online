@@ -4,6 +4,8 @@ import { games } from "@/lib/games";
 import { articles } from "@/lib/articles";
 import { guides } from "@/lib/guides";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE_CONFIG.domain;
 

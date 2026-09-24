@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "operator jun88",
     "lisensi jun88",
     "jun88 demo",
-    "jun88-id.online",
+    "jun88-id.info",
     "cyber labs bv",
     "cg a license",
     "demo slot gratis",

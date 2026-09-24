@@ -1,7 +1,7 @@
 import type { Game, Provider, GameCategory } from "@/types";
 
 // ============================================
-// GAMES — jun88-id.online
+// GAMES — jun88-id.info
 // Deskripsi ditulis ulang dengan angle analisis
 // ============================================
 export const games: Game[] = [
@@ -24,7 +24,7 @@ export const games: Game[] = [
     image: "/games/sweet-bonanza.webp",
     features: ["Cluster Pays", "Tumble", "Free Spins", "Multiplier Bomb", "Ante Bet"],
     intro:
-      "Sweet Bonanza bukan sekadar slot permen. Dengan grid 6×5 dan cluster pays, game ini mengubah cara pemain melihat kombinasi. Di Jun88-id.online, Anda bisa menguji ritme game ini tanpa deposit.",
+      "Sweet Bonanza bukan sekadar slot permen. Dengan grid 6×5 dan cluster pays, game ini mengubah cara pemain melihat kombinasi. Di jun88-id.info, Anda bisa menguji ritme game ini tanpa deposit.",
     story:
       "Bertema dunia permen yang manis, Sweet Bonanza membawa pemain ke negeri ajaib dengan simbol buah-buahan dan permen warna-warni. Tapi di balik visual ceria itu, ada mekanisme volatilitas tinggi yang perlu dipahami sebelum bermain.",
     visuals:

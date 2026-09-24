@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "tips bermain aman",
     "panduan bermain bijak",
     "jun88 demo",
-    "jun88-id.online",
+    "jun88-id.info",
     "demo slot gratis",
     "permainan bertanggung jawab",
   ],

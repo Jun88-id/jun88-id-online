@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "aturan jun88",
     "ketentuan layanan jun88",
     "jun88 demo",
-    "jun88-id.online",
+    "jun88-id.info",
     "demo slot gratis",
   ],
   alternates: { canonical: "/syarat-ketentuan" },

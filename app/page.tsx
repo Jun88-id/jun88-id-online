@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "jun88",
     "jun88 demo",
     "demo slot jun88",
-    "jun88-id.online",
+    "jun88-id.info",
     "jun88 id online",
     "demo slot gratis",
     "demo slot tanpa deposit",
@@ -90,7 +90,7 @@ export default function HomePage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/banner/welcome-jun88.webp"
-              alt="Demo slot gratis di Jun88-id.online"
+              alt="Demo slot gratis di jun88-id.info"
               className="magazine-hero__image"
             />
             <div className="magazine-hero__overlay">
@@ -174,7 +174,7 @@ export default function HomePage() {
 
           {/* TENTANG JUN88 — Konten SEO, tanpa CTA affiliate */}
           <section className="page-content">
-            <h2>Tentang Jun88-id.online</h2>
+            <h2>Tentang jun88-id.info</h2>
             <p>
               {SITE_CONFIG.name}-id.online adalah kanal demo slot independen yang menghadirkan koleksi game demo
               dari provider terkemuka seperti PG Soft dan Pragmatic Play. Mainkan demo slot gratis

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "perlindungan data jun88",
     "keamanan data jun88",
     "jun88 demo",
-    "jun88-id.online",
+    "jun88-id.info",
     "demo slot gratis",
   ],
   alternates: { canonical: "/privasi" },

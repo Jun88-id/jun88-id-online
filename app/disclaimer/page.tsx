@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "disclaimer demo slot",
     "tanggung jawab jun88",
     "jun88 demo",
-    "jun88-id.online",
+    "jun88-id.info",
     "demo slot gratis",
   ],
   alternates: { canonical: "/disclaimer" },

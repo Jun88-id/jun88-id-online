@@ -1,12 +1,12 @@
 // ============================================
-// SITE CONFIG — jun88-id.online
+// SITE CONFIG — jun88-id.info
 // ============================================
 export const SITE_CONFIG = {
   name: "Jun88",
-  domain: "https://jun88-id.online",
+  domain: "https://jun88-id.info",
   tagline: "Demo Slot Gratis — Uji Strategi Tanpa Deposit",
   description:
-    "Jun88-id.online adalah kanal demo slot independen. Mainkan demo gratis dari PG Soft & Pragmatic Play, pelajari RTP dan volatilitas, tanpa deposit dan tanpa registrasi.",
+    "jun88-id.info adalah kanal demo slot independen. Mainkan demo gratis dari PG Soft & Pragmatic Play, pelajari RTP dan volatilitas, tanpa deposit dan tanpa registrasi.",
 } as const;
 
 // ============================================
