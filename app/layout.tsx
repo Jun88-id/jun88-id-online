@@ -44,8 +44,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  // ✅ Dua Google Site Verification (lama + baru)
   verification: {
-    google: "LaTB6sDbokMbmYnlZFxaooh0QQXno5fbYvCgOdqJA-U",
+    google: [
+      "LaTB6sDbokMbmYnlZFxaooh0QQXno5fbYvCgOdqJA-U",
+      "JBk8tAg6DaLuJzr9r_6HSE-eZJey10YIR6gCJSYJf7U",
+    ],
   },
   // ✅ Geo tag — konsisten dengan AMP
   other: {
