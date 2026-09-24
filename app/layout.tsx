@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "6nzbiJy4ba-BvRSNKKUnDNTh5pEf6WXwjO89_9K4BjA",
+    google: "LaTB6sDbokMbmYnlZFxaooh0QQXno5fbYvCgOdqJA-U",
   },
   // ✅ Geo tag — konsisten dengan AMP
   other: {
