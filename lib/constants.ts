@@ -13,7 +13,7 @@ export const SITE_CONFIG = {
 // MAIN SITE — jun88id.com
 // ============================================
 export const MAIN_SITE = {
-  url: "https://h5.jun882345.com/?chn=c2VvX2hvcGU%3D&id=NTUwNzU2ODQ0&fsource=E0UxNiSsir",
+  url: "https://h5.jun8833.top?ch=Rj7xnm",
   label: "Situs Utama",
   description: "Informasi lengkap dan akses penuh",
 } as const;
@@ -32,7 +32,7 @@ export const LICENSE_INFO = {
 } as const;
 
 // ============================================
-// EXTERNAL LINKS
+// EXTERNAL LINKS 
 // ============================================
 const H5_BASE = "https://h5.jun8833.top?ch=Rj7xnm";
 const APK_URL = "https://download.jun882222.net/android/rY7a4cRDkXrWlB4EA7GMy-.apk";
