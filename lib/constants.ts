@@ -34,13 +34,15 @@ export const LICENSE_INFO = {
 // ============================================
 // EXTERNAL LINKS
 // ============================================
-const H5_BASE = "https://h5.jun882345.com/?chn=c2VvX2hvcGU%3D&id=NTUwNzU2ODQ0&fsource=E0UxNiSsir";
+const H5_BASE = "https://h5.jun8833.top?ch=Rj7xnm";
+const APK_URL = "https://download.jun882222.net/android/rY7a4cRDkXrWlB4EA7GMy-.apk";
+
 export const EXTERNAL_LINKS = {
   login: `${H5_BASE}&action=login`,
   register: `${H5_BASE}&action=register`,
   demo: `${H5_BASE}&action=demo`,
   promo: `${H5_BASE}&action=promo`,
-  download: `${H5_BASE}&action=download`,
+  download: APK_URL,
 } as const;
 
 // ============================================
